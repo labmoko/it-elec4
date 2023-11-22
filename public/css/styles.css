@@ -1,0 +1,260 @@
+/* style.css */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 60px;
+    text-align: center;
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+}
+
+.navigation a:hover {
+    transform: translateY(-2px);
+    transition: transform 0.3s ease;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #333;
+}
+
+.navigation a:hover {
+    background-color: #f0f0f0;
+}
+
+.image {
+    margin-left: 350px;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.image img {
+    max-width: 850px;
+    max-height: 100%;
+}
+
+.auth-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.auth-button {
+    margin: 0 10px;
+}
+
+.whatsnew,
+.sale,
+.clothing,
+.categories {
+    text-align: left;
+    background-color: #f0f0f0;
+    padding: 10px;
+    padding-left: 20px;
+    margin: 10px auto;
+    width: 60%;
+    border: 2px solid #000;
+}
+
+.whatsnewtext,
+.saletext,
+.clothtext {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.categories {
+    border: 2px solid black;
+    background-color: rgb(210, 202, 202);
+    width: 250px;
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 50px;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.category-title {
+    text-align: start;
+    font-weight: bold;
+    color: red;
+}
+
+li {
+    list-style: none;
+}
+
+.category {
+    padding: 3px;
+    transition: transform 0.3s ease;
+}
+
+.category:hover {
+    transform: translateY(-2px);
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+
+.product {
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+    box-sizing: border-box;
+    width: calc(25% - 20px);
+}
+
+.product img {
+    max-width: 70%;
+    height: auto;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+
+.product img:hover {
+    transform: translateY(-2px);
+}
+
+.clotheoverall {
+    margin-top: 20px;
+    margin-left: 60px;
+    font-size: large;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.image {
+    width: 150px;
+    height: auto;
+}
+
+/*css for donation blade*/
+.donate-overll {
+    float: left;
+    margin-inline-start: 70px;
+    margin-top: 50px;
+    padding: 20px;
+    width: 120vh;
+    border: 2px solid #b2a8a8;
+    background-color: #f0f0f0;
+}
+
+#donate-bg-section {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 70%;
+    margin-top: 150px;
+    margin-left: 20PX;
+    background: rgba(240, 240, 240, 0.3);
+    display: flex;
+    flex-direction:column;
+    align-items:flex-start;
+    justify-content: center;
+}
+
+.paragraph-for-donations {
+    text-align: justify;
+    z-index: 1; /* Ensure the text is above the background */
+    position: absolute;
+    top: 50%; /* Adjust as needed */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.paragraph-for-donations p {
+    width: 750px;
+    margin: 20px;
+    padding: 20px;
+    color: #0f0e0e;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-top: 10px;
+    margin-bottom: 0;
+    z-index: 1; /* Ensure the text is above the background */
+}
+
+.donate-button {
+    display: block;
+    width: 200px;
+    margin: 20px;
+    margin-left: 60px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 10px 20px;
+    z-index: 1; /* Ensure the button is above the background */
+}
+
+#donate-bg-section img {
+    width: 100%;
+    height: auto;
+    z-index: 0; /* Ensure the background image is at the bottom */
+}
+
+.donate-bgcover{
+    width: 100%;
+    height: 100vh;
+}
+
+.donate-bgcover img{
+    width: 100%;
+    height: 100%;
+}
+.paragraph-for-donations h3{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.paragraph-for-donations h5{
+        padding-left: 50px;
+}
+
+/*css for about-us*/
+.about-tindahan {
+    display: flex;
+    /*align-items: center;
+    justify-content: center;*/
+    height: 100vh;
+    background-color: #f0f0f0; /* Set the background color for the "ABOUT US" section */
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.about-tindahan-open-text {
+    text-align: left;
+}
+
+.about-tindahan-open-text h3 {
+    font-size: 2em; /* Set the desired font size for the heading */
+    color: #e42323; /* Set the color for the heading text */
+}
+.first-for-about-us{
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+
